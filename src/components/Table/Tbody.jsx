@@ -1,15 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { events } from "../../assets/json/eventData.json";
 import dayjs from "dayjs";
 import { darkenColor, lighenColor } from "../../assets/utils/methods/darken";
 import { initails } from "../../assets/utils/methods/initails";
-import ParentModal from "../Modal/ParentModal";
-import ModalHeader from "../Modal/ModalHeader";
-import ChildModal from "../Modal/ChildModal";
-import {
-  formatFullDate,
-  formatTime,
-} from "../../assets/utils/methods/formateDates";
 import EventDetail from "../EventDetail/EventDetail";
 
 const Tbody = ({ weeks, currentMonth }) => {
@@ -85,14 +78,15 @@ const Tbody = ({ weeks, currentMonth }) => {
                         }}
                         onClick={() => handleEventClick(event)}
                       >
+                        {/* event title */}
                         <div className="font-medium mt-2 hidden md:block">
-                          {/* {initails(event.title)} */}
                           {event.title}
                         </div>
+                        {/* event title */}
                         <div className="font-medium md:mt-2 block md:hidden ">
                           {initails(event.title)}
-                          {/* {event.title} */}
                         </div>
+                        {/* event start time - end time */}
                         <div className="text-[10px] md:text-sm items-center text-center py-2 hidden md:block">
                           <div>
                             {event.startTime} - {event.endTime}

@@ -1,4 +1,3 @@
-import React from "react";
 import s from "./modal.module.css";
 const ChildModal = ({ children }) => {
   return (
