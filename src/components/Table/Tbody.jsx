@@ -25,6 +25,8 @@ const Tbody = ({ weeks, currentMonth }) => {
             // Filter events matching this date
             const dayEvents = events.filter((event) => event.date == fullDate);
 
+            const today = dayjs().format("YYYY-MM-DD");
+            const isToday = fullDate === today;
             return (
               <td
                 key={dayIdx}
@@ -32,7 +34,9 @@ const Tbody = ({ weeks, currentMonth }) => {
                   date
                     ? "text-black dark:text-white"
                     : "bg-gray-100 dark:bg-gray-800"
-                }`}
+                }
+                 ${isToday ? "ring-2 ring-blue-500 ring-offset-1" : ""}
+                `}
                 style={{
                   background:
                     dayEvents.length === 1
