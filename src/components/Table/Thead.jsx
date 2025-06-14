@@ -7,7 +7,7 @@ const Thead = () => {
         {days.map((day, i) => (
           <th
             key={i}
-            className="p-4 md:p-8 text-gray-600 dark:text-stroke border-2 dark:border-slate-100 border-slate-200  "
+            className="p-2 md:p-8 text-gray-600 dark:text-stroke border-2 dark:border-slate-100 border-slate-200 text-[10px] md:text-lg "
           >
             {day}
           </th>
