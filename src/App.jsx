@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import EventParent from "./components/EventParent/EventParent";
+import EventParent from "./components/EventDetail/EventDetail";
 import Table from "./components/Table/Table";
 import Thead from "./components/Table/Thead";
 import CalenderParent from "./components/CalenderParent/CalenderParent";
@@ -28,16 +28,31 @@ function App() {
         </h2>
         <button
           onClick={toggleDarkMode}
-          className="mt-2 px-4 py-2 bg-gray-300 dark:bg-gray-700 text-black dark:text-white rounded"
+          className="mt-2  bg-gray-300 dark:bg-white  rounded-full flex items-center"
         >
-          {isDarkMode ? " Mode" : "Dark "}
+          {isDarkMode ? (
+            <img
+              width="35"
+              height="35"
+              className="h-10 w-10 p-2 "
+              src="https://img.icons8.com/ios/50/sun--v1.png"
+              alt="sun--v1"
+            />
+          ) : (
+            <img
+              width="35"
+              height="35"
+              className="h-10 w-10 p-2 "
+              src="https://img.icons8.com/ios/50/bright-moon--v1.png"
+              alt="bright-moon--v1"
+            />
+          )}
         </button>
       </div>
       {/* calender header */}
 
       <div>
-        <CalenderParent>
-        </CalenderParent>
+        <CalenderParent></CalenderParent>
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ const CalenderHeader = ({ prevMonth, currentDate, nextMonth }) => {
         >
           {"<"}
         </button>
-        <h2 className="font-satoshi font-bold text-lg dark:text-white md:text-">
+        <h2 className="font-satoshi font-bold text-sm md:text-lg dark:text-white ">
           {currentDate.format("MMMM YYYY")}
         </h2>
         <button
