@@ -1,0 +1,254 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Marketing Sync",
+      "date": "2023-03-15",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "color": "#FF5733"
+    },
+    {
+      "id": 2,
+      "title": "Dev Standup",
+      "date": "2025-04-12",
+      "startTime": "09:30",
+      "endTime": "10:00",
+      "color": "#33B5FF"
+    },
+    {
+      "id": 82,
+      "title": "Dev Standup",
+      "date": "2025-04-12",
+      "startTime": "09:30",
+      "endTime": "10:00",
+      "color": "#33B7FF"
+    },
+    {
+      "id": 3,
+      "title": "Product Launch",
+      "date": "2023-06-30",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "color": "#28A745"
+    },
+    {
+      "id": 4,
+      "title": "Design Review",
+      "date": "2023-07-05",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "color": "#FFC107"
+    },
+    {
+      "id": 5,
+      "title": "Sprint Demo",
+      "date": "2023-08-01",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "color": "#6F42C1"
+    },
+    {
+      "id": 6,
+      "title": "Client Call",
+      "date": "2023-08-01",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "color": "#17A2B8"
+    },
+    {
+      "id": 7,
+      "title": "Quarterly Review",
+      "date": "2023-09-10",
+      "startTime": "13:00",
+      "endTime": "14:00",
+      "color": "#E83E8C"
+    },
+    {
+      "id": 8,
+      "title": "UX Workshop",
+      "date": "2023-10-21",
+      "startTime": "09:00",
+      "endTime": "12:00",
+      "color": "#007BFF"
+    },
+    {
+      "id": 9,
+      "title": "Strategy Meet",
+      "date": "2023-11-30",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "color": "#20C997"
+    },
+    {
+      "id": 10,
+      "title": "Holiday Party",
+      "date": "2023-12-22",
+      "startTime": "17:00",
+      "endTime": "20:00",
+      "color": "#DC3545"
+    },
+
+    {
+      "id": 11,
+      "title": "Kickoff Meeting",
+      "date": "2024-01-03",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "color": "#FF6347"
+    },
+    {
+      "id": 12,
+      "title": "DevOps Session",
+      "date": "2024-02-08",
+      "startTime": "14:00",
+      "endTime": "15:30",
+      "color": "#8A2BE2"
+    },
+    {
+      "id": 13,
+      "title": "UI Review",
+      "date": "2024-03-14",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "color": "#FFD700"
+    },
+    {
+      "id": 14,
+      "title": "Performance Review",
+      "date": "2024-04-19",
+      "startTime": "13:00",
+      "endTime": "14:30",
+      "color": "#FF8C00"
+    },
+    {
+      "id": 15,
+      "title": "Team Lunch",
+      "date": "2024-05-09",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "color": "#00CED1"
+    },
+    {
+      "id": 16,
+      "title": "Sprint Planning",
+      "date": "2024-06-13",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "color": "#FF69B4"
+    },
+    {
+      "id": 17,
+      "title": "Town Hall",
+      "date": "2024-07-24",
+      "startTime": "15:00",
+      "endTime": "16:30",
+      "color": "#ADFF2F"
+    },
+    {
+      "id": 18,
+      "title": "Security Review",
+      "date": "2024-08-11",
+      "startTime": "09:00",
+      "endTime": "10:30",
+      "color": "#F08080"
+    },
+    {
+      "id": 19,
+      "title": "Hackathon",
+      "date": "2024-09-06",
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "color": "#4B0082"
+    },
+    {
+      "id": 20,
+      "title": "Tech Talk",
+      "date": "2024-10-15",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "color": "#00FF7F"
+    },
+
+    {
+      "id": 21,
+      "title": "Code Review",
+      "date": "2025-01-10",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "color": "#DAA520"
+    },
+    {
+      "id": 22,
+      "title": "UI Design Sprint",
+      "date": "2025-02-14",
+      "startTime": "11:00",
+      "endTime": "12:30",
+      "color": "#8B0000"
+    },
+    {
+      "id": 23,
+      "title": "Sales Pitch",
+      "date": "2025-03-03",
+      "startTime": "09:30",
+      "endTime": "10:30",
+      "color": "#1E90FF"
+    },
+    {
+      "id": 24,
+      "title": "Partner Meeting",
+      "date": "2025-04-18",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "color": "#9ACD32"
+    },
+    {
+      "id": 25,
+      "title": "Customer Demo",
+      "date": "2025-05-05",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "color": "#7FFF00"
+    },
+    {
+      "id": 26,
+      "title": "Team Building",
+      "date": "2025-06-25",
+      "startTime": "13:00",
+      "endTime": "17:00",
+      "color": "#FF4500"
+    },
+    {
+      "id": 27,
+      "title": "Backend Review",
+      "date": "2025-07-08",
+      "startTime": "10:00",
+      "endTime": "11:30",
+      "color": "#800080"
+    },
+    {
+      "id": 28,
+      "title": "Data Sync",
+      "date": "2025-08-31",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "color": "#00BFFF"
+    },
+    {
+      "id": 29,
+      "title": "Dev Summit",
+      "date": "2025-09-20",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "color": "#32CD32"
+    },
+    {
+      "id": 30,
+      "title": "Holiday Planning",
+      "date": "2025-12-15",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "color": "#C71585"
+    }
+  ]
+}
